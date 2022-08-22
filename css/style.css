@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    font-size: 62.5%
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida1";
+    font-size: 1.6rem;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    margin:0px;
+}
+
+#title_h1{
+    margin: 0px;
+    background-color: #016c24;
+    padding: .5rem;
+}
+
+img{
+    width: 90px;
+    margin: 35px 20px -12px 5px;
+}
+
+h1{
+    width: fit-content;
+    margin: auto;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 7rem;
+    color: white;
+    background-color: #4f976552;
+    padding: .6rem;
+    border-radius: 5rem;
+    text-shadow: 1px 7px 8px rgba(0, 0, 0, 0.164);
+}
+
+button{
+    cursor: pointer;
+    margin: 0.5rem;
+    font-size: 1.7rem;
+}
+
+#board_div{
+}
+
+.numbers{
+    display: ;
+    border: 1px solid gray;
+    padding: .8rem;
+    list-style: none;
+    font-family: monospace;
+    font-size: 2rem;
+    width: 65%;
+    margin: 5rem auto 2rem auto;
+    background-color: #ffd04e57;
+}
+
+
+.number{
+    color: #b30000;
+    font-size: 2rem;
+    display: inline-block;
+    margin: 1rem;
+    border-right: 0.1rem solid #b10f0fa1;
+    border-left: 0.1rem solid #b10f0fa1;
+    width: 2.5rem;
+    border-radius: 20%;
+    background-color: #f8f8f869;
+    padding: 0.5rem .9rem;
+    user-select: none;
+    cursor: pointer;
+}
+
+.selected_number{
+    background-color: rgb(96, 238, 96);
+    font-weight: bold;
+    padding: .7rem 1.1rem;
+    margin: .6rem 0.8rem;
+    color: rgb(0, 0, 0);
+    border: solid 0.1rem rgb(0, 0, 0);
+}
+
+.center_div{
+    margin: auto;
+    width: fit-content;
+}
+
+#div_buttons{
+    margin: auto;
+    padding: 0px;
+
+}
+
+
+#megasena-saved-games li {
+    list-style: none;
+    margin-bottom: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    border-bottom: 1px solid rgba(0, 122, 6, 0.178);
+    background-color: rgba(0, 0, 0, 0.068);
+    border-radius: 10%;
+}
+
+#megasena-saved-games ul{
+    background-color: rgba(149, 192, 231, 0.315);
+    width: ;
+    padding: 2.3rem;
+    border: 0.11rem black;
+    border-style: dashed;
+}
+
+.game-number{
+    font-weight: bolder;
+}
