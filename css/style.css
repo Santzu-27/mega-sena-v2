@@ -7,7 +7,7 @@ html, body{
     height: 100%;
 }
 
-body, html {
+body{
     font-family: "Lucida Sans Unicode", "Lucida1";
     font-size: 1.6rem;
     padding: 0px;
